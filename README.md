@@ -38,11 +38,13 @@ class CustomCommand extends Command
 		 */
 		$this->askQuestion ( 'Choose your option:' )
 			 ->name ( 'option' )
-			 ->chooseFrom ( [
-								'option1' => 'Option 1',
-								'option2' => 'Option 2',
-								'option3' => 'Option 3',
-							] );
+			 ->chooseFrom ( 
+			 	[
+                    'option1' => 'Option 1',
+                    'option2' => 'Option 2',
+                    'option3' => 'Option 3',
+                ]
+		     );
 		
 		/**
 		 * Ask a question with confirmation and hide the answer
@@ -63,3 +65,6 @@ class CustomCommand extends Command
 	
 }
 ```
+
+## License
+This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
