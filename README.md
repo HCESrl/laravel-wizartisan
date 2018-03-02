@@ -1,6 +1,8 @@
 ## hcesrl/laravel-wizartisan
 
-[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
+[![Latest Stable Version](https://poser.pugx.org/hcesrl/laravel-wizartisan/v/stable?format=flat-square)](https://packagist.org/packages/hcesrl/laravel-wizartisan)
+[![Total Downloads](https://poser.pugx.org/hcesrl/laravel-wizartisan/downloads?format=flat-square)](https://packagist.org/packages/hcesrl/laravel-wizartisan)
+[![License](https://poser.pugx.org/hcesrl/laravel-wizartisan/license?format=flat-square)](https://packagist.org/packages/hcesrl/laravel-wizartisan)
 
 ## Installation
 
