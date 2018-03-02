@@ -70,3 +70,6 @@ class CustomCommand extends Command
 
 ## License
 This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Authors
+*  [HCE](https://www.hce.it/)
