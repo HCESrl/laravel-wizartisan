@@ -1,39 +1,39 @@
 {
-    "name":"hcesrl/laravel-wizartisan",
-    "description":"Build your custom Laravel Artisan wizard commands.",
-    "homepage":"https://github.com/HCESrl/laravel-wizartisan",
-    "license":"MIT",
-    "authors":[
-        {
-            "name":"Fabio Savina",
-            "email":"fabio.savina@gmail.com"
-        }
-    ],
-    "keywords":[
-        "laravel",
-        "artisan",
-        "command",
-        "cli",
-        "wizard"
-    ],
-    "require":{
-        "php":">=7.0",
-        "illuminate/console":"5.5.*",
-        "illuminate/contracts":"5.5.*",
-        "illuminate/support":"5.5.*",
-        "illuminate/validation":"5.5.*"
-    },
-    "require-dev":{
-        "orchestra/testbench":"^3.5"
-    },
-    "autoload":{
-        "psr-4":{
-            "Wizartisan\\":"src/Wizartisan"
-        }
-    },
-    "autoload-dev":{
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+  "name": "hcesrl/laravel-wizartisan",
+  "description": "Build your custom Laravel Artisan wizard commands.",
+  "homepage": "https://github.com/HCESrl/laravel-wizartisan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabio Savina",
+      "email": "fabio.savina@gmail.com"
     }
+  ],
+  "keywords": [
+    "laravel",
+    "artisan",
+    "command",
+    "cli",
+    "wizard"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/console": ">=5.5",
+    "illuminate/contracts": ">=5.5",
+    "illuminate/support": ">=5.5",
+    "illuminate/validation": ">=5.5"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wizartisan\\": "src/Wizartisan"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  }
 }
